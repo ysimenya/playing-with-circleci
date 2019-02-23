@@ -19,4 +19,4 @@ jobs:
           name: run tests
           command: |
             pipenv run flake8 --exclude=.venv --statistics
-            pipenv run pytest -v --cov-config .coveragerc --cov=calculator -W ignore::DeprecationWarning
+            pipenv run pytest -v --cov-config=.coveragerc --cov=calculator -W ignore::DeprecationWarning
