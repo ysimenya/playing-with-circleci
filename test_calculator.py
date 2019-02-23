@@ -12,31 +12,3 @@ class TestCalculator:
 
     def test_subtraction(self):
         assert 5 == calculator.sub(8, 3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
